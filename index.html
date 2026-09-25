@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#050505">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="LAST CIRCUIT is a local public terminal for the solar system and the scales beyond it.">
+  <title>LAST CIRCUIT // PUBLIC TERMINAL</title>
+  <link rel="icon" href="assets/svg/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600&family=Share+Tech+Mono&display=swap">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="boot" role="status" aria-live="polite">
+    <p class="boot-kicker">LC</p>
+    <h1 id="boot-title">ESTABLISHING CIRCUIT</h1>
+    <div class="boot-track" aria-hidden="true"><div class="boot-bar"></div></div>
+  </div>
+  <div id="win" class="win">
+    <header class="chrome">
+      <div class="brand">
+        <span class="monogram">LC</span>
+        <p class="wordmark">LAST//CIRCUIT</p>
+      </div>
+      <p class="chrome-title">PUBLIC TERMINAL</p>
+      <p id="clock" class="clock">----.--.--</p>
+    </header>
+    <div class="circuit">
+      <button type="button" class="btn" id="btn-index" aria-expanded="false" aria-controls="rail">INDEX</button>
+      <div class="circuit-field">
+        <span class="proto">lc://</span>
+        <div class="circuit-grow">
+          <label class="sr-only" for="circuit">Circuit address and command</label>
+          <input id="circuit" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" enterkeyhint="go" aria-autocomplete="list" aria-controls="suggest" aria-expanded="false" value="home">
+          <span id="mirror" class="mirror" aria-hidden="true"></span>
+          <span id="caret" class="caret" aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="density" role="group" aria-label="Reading density">
+        <button type="button" id="btn-cadet" aria-pressed="true">CADET</button>
+        <button type="button" id="btn-analyst" aria-pressed="false">ANALYST</button>
+      </div>
+      <button type="button" id="btn-mute" aria-pressed="true">MUTE</button>
+      <ul id="suggest" role="listbox" hidden></ul>
+    </div>
+    <p id="echo" class="echo">&gt; READY</p>
+    <nav class="tabs" id="tabs" aria-label="Pins">
+      <button type="button" data-go="home">HOME</button>
+      <button type="button" data-go="solar">SOLAR</button>
+      <button type="button" data-go="scale">SCALE</button>
+      <button type="button" data-go="deep">DEEP</button>
+      <button type="button" data-go="graph">GRAPH</button>
+      <button type="button" data-go="log">LOG</button>
+      <button type="button" data-go="credits">CREDITS</button>
+    </nav>
+    <div class="main">
+      <nav id="rail" class="rail" aria-label="Index"></nav>
+      <main id="view" class="view" tabindex="-1">
+        <p class="path">lc://home</p>
+      </main>
+    </div>
+    <footer class="status">
+      <p id="status-text">NODE home · WEBGL — · DELAY — · CADET · LOCAL</p>
+    </footer>
+    <nav class="dock" aria-label="Dock">
+      <a data-go="home" href="#/home">HOME</a>
+      <a data-go="solar" href="#/solar">SOLAR</a>
+      <a data-go="scale" href="#/scale">SCALE</a>
+      <a data-go="deep" href="#/deep">DEEP</a>
+      <a data-go="graph" href="#/graph">GRAPH</a>
+    </nav>
+  </div>
+  <div id="scrim" class="scrim" hidden></div>
+  <div id="live" class="sr-only" aria-live="polite"></div>
+  <noscript><p>LAST CIRCUIT needs JavaScript to open its local files. No account is required.</p></noscript>
+  <script src="js/file-fallback.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/viz-host.js"></script>
+  <script src="js/solar3d.js"></script>
+  <script src="js/viz-planet.js"></script>
+  <script src="js/viz-hole.js"></script>
+  <script src="js/viz-scale.js"></script>
+  <script src="js/viz-galaxy.js"></script>
+  <script src="js/viz-delay.js"></script>
+  <script src="js/graphs.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

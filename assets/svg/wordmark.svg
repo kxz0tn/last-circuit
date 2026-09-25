@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 64" role="img" aria-label="LAST CIRCUIT">
+  <rect width="460" height="64" fill="#050505"/>
+  <rect x="4" y="8" width="48" height="48" fill="none" stroke="#e8e8e8"/>
+  <rect x="10" y="14" width="4" height="28" fill="#f4f4f4"/>
+  <rect x="10" y="38" width="14" height="4" fill="#f4f4f4"/>
+  <rect x="28" y="14" width="16" height="4" fill="#f4f4f4"/>
+  <rect x="28" y="14" width="4" height="28" fill="#f4f4f4"/>
+  <rect x="28" y="38" width="16" height="4" fill="#f4f4f4"/>
+  <text x="64" y="42" fill="#e8e8e8" font-family="Orbitron, Share Tech Mono, sans-serif" font-size="26" letter-spacing="4">LAST//CIRCUIT</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="i-home" viewBox="0 0 24 24">
+    <path d="M4 11 L12 4 L20 11 V20 H4 Z" fill="none" stroke="#e8e8e8"/>
+    <path d="M10 20 V14 H14 V20" fill="none" stroke="#e8e8e8"/>
+  </symbol>
+  <symbol id="i-solar" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="2" fill="#e8e8e8"/>
+    <circle cx="12" cy="12" r="6" fill="none" stroke="#e8e8e8"/>
+    <circle cx="12" cy="12" r="9" fill="none" stroke="#8a8a8a"/>
+  </symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24">
+    <path d="M3 16 H21" stroke="#e8e8e8"/>
+    <path d="M5 12 V16 M10 8 V16 M15 11 V16 M20 6 V16" stroke="#e8e8e8"/>
+  </symbol>
+  <symbol id="i-deep" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="4" fill="none" stroke="#e8e8e8"/>
+    <circle cx="12" cy="12" r="8" fill="none" stroke="#e8e8e8" stroke-dasharray="2 2"/>
+  </symbol>
+  <symbol id="i-log" viewBox="0 0 24 24">
+    <path d="M6 5 H18 V19 H6 Z" fill="none" stroke="#e8e8e8"/>
+    <path d="M9 9 H15 M9 12 H15 M9 15 H13" stroke="#e8e8e8"/>
+  </symbol>
+  <symbol id="i-mute" viewBox="0 0 24 24">
+    <path d="M5 10 H9 L13 7 V17 L9 14 H5 Z" fill="none" stroke="#e8e8e8"/>
+    <path d="M16 9 L20 15 M20 9 L16 15" stroke="#e8e8e8"/>
+  </symbol>
+</svg>

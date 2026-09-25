@@ -1,0 +1,57 @@
+[
+  {
+    "id": "black-hole",
+    "path": "lc://deep/black-hole",
+    "class": "PHENOMENON",
+    "title": "Black Hole",
+    "diagram": "black-hole",
+    "illustration": true,
+    "aliases": ["black hole", "blackhole"],
+    "cadet": "A black hole is a region where gravity is so strong that the escape speed is faster than light. Escape speed is how fast something would have to climb to get away and not fall back. Past a boundary called the event horizon, no signal can reach us. The drawing on this page is an illustration of that last closed circuit of light. It is not a photograph, and it is not a full gravity calculation.",
+    "analyst": "For a spherical mass that is not spinning, the event horizon sits at the Schwarzschild radius, Rs = 2GM/c^2. For a mass equal to the Sun that radius is about 3 km. Known stellar black holes are heavier, so their horizons are larger. Light can loop near 1.5 Rs. Inside the horizon, outward paths do not reach a distant observer. This page does not integrate Einstein's equation. It also does not use a marble-on-a-tablecloth picture, which points students at the wrong direction for the curvature. Tidal forces near a stellar-mass horizon are severe. The sketch shows signal paths only."
+  },
+  {
+    "id": "why-black",
+    "path": "lc://deep/why-black",
+    "class": "PHENOMENON",
+    "title": "Why the sky is black",
+    "diagram": "why-black",
+    "illustration": true,
+    "aliases": ["why is space black", "why is the sky black", "why the sky is black", "olbers", "dark sky", "why space is black"],
+    "cadet": "If the universe were endless, eternal, and evenly full of stars, every direction you looked would end on a star. Night would blaze. Night is dark. One honest reason: the universe has a finite age, so light from the greatest distances has not had forever to arrive. Space is also stretching, which cools and dims the oldest light. Dust alone does not solve it. Dust would heat up and shine.",
+    "analyst": "Olbers paradox: in an infinite, static, eternal Euclidean universe with a steady density of eternal stars, the summed starlight diverges and the sky is bright. The dark sky rules that simple picture out. A finite cosmic age, about 13.8 billion years in the standard model, caps how far we can look back. Expansion shifts distant light out of the visible band. Absorbing dust would heat toward equilibrium and radiate. The diagram is a counting argument, not a fit to cosmological data."
+  },
+  {
+    "id": "light-year",
+    "path": "lc://deep/light-year",
+    "class": "PHENOMENON",
+    "title": "Light-year",
+    "diagram": "light-year",
+    "illustration": true,
+    "aliases": ["light year", "lightyear", "ly"],
+    "cadet": "A light-year is a distance, not a time. It is how far light travels in one year through empty space. The nearest star beyond the Sun is Proxima Centauri, about 4.24 light-years away. The light we see left years ago. You are not seeing that star as it is this minute.",
+    "analyst": "1 light-year is about 9.46 trillion km, or about 63,240 astronomical units. Proxima Centauri is about 4.24 light-years from the Sun, a rounded parallax figure. Travel time at the speed of light equals that number of years only because of how the unit is defined. It is not a clock bolted to the star, and it ignores any motion of the star during the trip. This terminal keeps 4.24 as a stable round value."
+  },
+  {
+    "id": "big-bang",
+    "path": "lc://deep/big-bang",
+    "class": "PHENOMENON",
+    "title": "Big Bang",
+    "diagram": "big-bang",
+    "illustration": true,
+    "aliases": ["big bang", "bigbang"],
+    "cadet": "Big bang is the name for the hot, dense early universe and the expansion that followed. It was not a bomb in an empty room, and it does not have a center sitting in the sky like a city. Space itself grew. The drawing is a timeline of cooling and clumping, not an explosion.",
+    "analyst": "The standard cosmological model describes a hot, dense early phase about 13.8 billion years ago, then expansion, cooling, the first atoms, stars, and galaxies. That age is a fit to several measurements. It can shift slightly as data improve. The model has no unique center inside the observable volume. This page states the model. It does not claim that every open question in cosmology is closed, and it does not argue a rival origin story."
+  },
+  {
+    "id": "observable",
+    "path": "lc://deep/observable",
+    "class": "PHENOMENON",
+    "title": "Observable universe",
+    "diagram": "observable",
+    "illustration": true,
+    "aliases": ["observable universe", "observable", "visible universe"],
+    "cadet": "The observable universe is the region from which light has had time to reach us. A common figure for its width is about 93 billion light-years. That is much larger than 13.8 billion light-years because space kept stretching while the light was traveling. It may not be everything that exists. We only mark the part a signal can have crossed.",
+    "analyst": "About 93 billion light-years across is a current common figure for the diameter set by the particle horizon in the standard model. It is model-dependent. Reasonable changes in the fit do not turn it into a small number, but the last digit is not a tape measure. It is not a wall, and it is not a claim that the universe ends there. Regions beyond it are simply those from which no light has reached us yet. This terminal does not invent what is outside."
+  }
+]
